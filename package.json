@@ -7,9 +7,8 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "clean": "rm dist/bundle.js",
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack -p --mode production",
+    "build": "rm -rf docs/*.js && webpack -p --mode production",
     "start-prod": "node server.js"
   },
   "dependencies": {
