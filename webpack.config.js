@@ -55,6 +55,24 @@ const config = {
       template: require('html-webpack-template'),
       inject: false,
       appMountId: 'app',
+      meta: [
+        {
+          name: 'og:title',
+          content: 'Taga Pisay EVC ka ba talaga?'
+        },
+        {
+          name: 'og:description',
+          content: 'Answer this quiz to know what subject you will teach if you were a Pisay teacher?'
+        },
+        {
+          name: 'og:image',
+          content: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZlNa9_1_648llp4M24wCedYR7PocaQ6lUav2IYA7TijkD0lTUw&s'
+        },
+        {
+          name: 'fb:app_id',
+          content: 641499649714690
+        }
+      ]
     })
   ],
   optimization: {

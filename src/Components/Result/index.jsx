@@ -1,14 +1,16 @@
 import React from 'react'
+import FacebookProvider, { Share, ShareButton } from 'react-facebook-sdk';
 import {
   Button,
   Dialog,
-  DialogTitle,
+  Fab,
   DialogContent,
   DialogActions,
   Slide,
   Paper,
   Typography
 } from '@material-ui/core'
+import { Facebook } from '@material-ui/icons'
 import useStyles from './styles'
 import {resultPrefix} from '../../test'
 
@@ -52,8 +54,10 @@ export default function Result({traits, effects}) {
     setOpen(false)
   };
 
+  const message = resultPrefix + ' ' + dominantTraits + ' !!!'
+
   return (
-    <React.Fragment>
+    <FacebookProvider appId="641499649714690">
       <Paper square elevation={0} className={classes.submitContainer}>
         <Button
           variant="outlined"
@@ -74,16 +78,22 @@ export default function Result({traits, effects}) {
       >
         {/* <DialogTitle id="alert-dialog-slide-title">Congratulations!!!</DialogTitle> */}
         <DialogContent>
-            <Typography variant="h5" component="h5">
-            {resultPrefix} {dominantTraits}!!!
-            </Typography>
+          <Typography variant="h5" component="h5">
+            {message}
+          </Typography>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose} color="primary">
-            Okay
-          </Button>
+          <Share display="popup" quote={message} redirectURI="https://facebook.com/" >
+            <Fab variant="extended" size="small" color="primary">
+              <Facebook />
+              Share
+            </Fab>
+          </Share>
+          <Fab variant="extended" size="small" onClick={handleClose}>
+            OK
+          </Fab>
         </DialogActions>
       </Dialog>
-    </React.Fragment>
+    </FacebookProvider>
   )
 }
