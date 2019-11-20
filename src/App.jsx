@@ -8,9 +8,7 @@ import { questions } from "./test";
 function App() {
   const [activeStep, setActiveStep] = useState(0);
   const [ans, setAns] = useState([]);
-  const [showResult, setShowResult] = useState(
-    window.location.pathname !== "/"
-  );
+  const [showResult, setShowResult] = useState(false);
 
   const prevStep = () => {
     setActiveStep(prevActiveStep => prevActiveStep - 1);
