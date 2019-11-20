@@ -33,7 +33,13 @@ function App() {
 
   return (
     <div className="app-container">
-      <div className="hero"></div>
+      <div className="hero">
+        <img className="logo" src={require("./images/logo-white.png")} />
+        <h1>
+          Answer this quiz to know what subject you will teach if you were a
+          Pisay teacher
+        </h1>
+      </div>
       <div className="form">
         {showResult ? (
           <Result answers={ans} />

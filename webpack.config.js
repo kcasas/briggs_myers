@@ -87,7 +87,7 @@ const config = {
       meta: [
         {
           name: "og:title",
-          content: "Taga Pisay EVC ka ba talaga?"
+          content: "Science"
         },
         {
           name: "og:description",
@@ -115,7 +115,7 @@ const config = {
       meta: [
         {
           name: "og:title",
-          content: "Taga Pisay EVC ka ba talaga?"
+          content: "Math"
         },
         {
           name: "og:description",
@@ -143,7 +143,7 @@ const config = {
       meta: [
         {
           name: "og:title",
-          content: "Taga Pisay EVC ka ba talaga?"
+          content: "Tech"
         },
         {
           name: "og:description",
@@ -171,7 +171,7 @@ const config = {
       meta: [
         {
           name: "og:title",
-          content: "Taga Pisay EVC ka ba talaga?"
+          content: "Humanities"
         },
         {
           name: "og:description",

@@ -5,6 +5,7 @@ import { traits, questions } from "../test";
 
 function Result({ answers }) {
   const dominantTrait = getDominantTraits(traits, getEffects(answers));
+  const shareUrl = getShareUrl(dominantTrait);
 
   return (
     <div className="result-container">
@@ -17,14 +18,10 @@ function Result({ answers }) {
           Retake
         </a>
         <FacebookProvider appId="641499649714690">
-          <ShareButton
-            href="http://www.facebook.com"
-            className="button result-share"
-          >
+          <ShareButton href={shareUrl} className="button result-share">
             Share
           </ShareButton>
         </FacebookProvider>
-        {/* <button className="button result-share">Share</button> */}
       </div>
     </div>
   );
@@ -62,6 +59,22 @@ const getDominantTraits = function(traits, effects) {
   });
 
   return domininants;
+};
+
+const getShareUrl = dominantTrait => {
+  const baseUrl = "https://kcasas.github.io/briggs_myers/";
+
+  switch (dominantTrait[0]) {
+    case "Science":
+      return baseUrl + "science.html";
+    case "Math":
+      return baseUrl + "math.html";
+    case "Tech":
+      return baseUrl + "tech.html";
+    case "Humanities":
+      return baseUrl + "humanities.html";
+  }
+  // if (dominantTrait.star)
 };
 
 export default Result;
