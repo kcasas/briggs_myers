@@ -1,5 +1,4 @@
 import React from "react";
-import FacebookProvider, { ShareButton } from "react-facebook-sdk";
 
 import { traits, questions } from "../test";
 
@@ -10,18 +9,16 @@ function Result({ answers }) {
   return (
     <div className="result-container">
       <p className="result-message">
-        You will teach... <em className="animated jello">{dominantTrait}</em>{" "}
+        You will teach... <em className="animated jello">{dominantTrait[0]}</em>{" "}
         <span>🎉🎉🎉</span>
       </p>
       <div className="result-actions">
         <a className="button back result-retake" href="/briggs_myers/">
           Retake
         </a>
-        <FacebookProvider appId="641499649714690">
-          <ShareButton href={shareUrl} className="button result-share">
-            Share
-          </ShareButton>
-        </FacebookProvider>
+        <a href={"https://www.facebook.com/sharer/sharer.php?u="+shareUrl} className="button result-share">
+          Share
+        </a>
       </div>
     </div>
   );

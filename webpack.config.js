@@ -95,7 +95,7 @@ const config = {
         },
         {
           name: "og:title",
-          content: "Science"
+          content: "You will teach Science!!!"
         },
         {
           name: "og:description",
@@ -127,7 +127,7 @@ const config = {
         },
         {
           name: "og:title",
-          content: "Math"
+          content: "You will teach Math!!!"
         },
         {
           name: "og:description",
@@ -159,7 +159,7 @@ const config = {
         },
         {
           name: "og:title",
-          content: "Tech"
+          content: "You will teach Tech!!!"
         },
         {
           name: "og:description",
@@ -191,7 +191,7 @@ const config = {
         },
         {
           name: "og:title",
-          content: "Humanities"
+          content: "You will teach Humanities!!!"
         },
         {
           name: "og:description",

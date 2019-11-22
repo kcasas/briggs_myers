@@ -228,6 +228,10 @@ body {
   text-decoration: none;
 }
 
+.result-share {
+  text-decoration: none;
+}
+
 /* Animations */
 .animated {
   animation-duration: 1s;
