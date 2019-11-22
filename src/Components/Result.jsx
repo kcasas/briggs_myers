@@ -59,7 +59,7 @@ const getDominantTraits = function(traits, effects) {
 };
 
 const getShareUrl = dominantTrait => {
-  const baseUrl = window.location.origin + "/";
+  const baseUrl = "https://" + window.location.hostname + "/";
 
   switch (dominantTrait[0]) {
     case "Science":
