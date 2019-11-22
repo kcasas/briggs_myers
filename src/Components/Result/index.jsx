@@ -1,5 +1,4 @@
 import React from 'react'
-import FacebookProvider, { Share, ShareButton } from 'react-facebook-sdk';
 import {
   Button,
   Dialog,
@@ -57,7 +56,7 @@ export default function Result({traits, effects}) {
   const message = resultPrefix + ' ' + dominantTraits + ' !!!'
 
   return (
-    <FacebookProvider appId="641499649714690">
+    <React.Fragment>
       <Paper square elevation={0} className={classes.submitContainer}>
         <Button
           variant="outlined"
@@ -82,18 +81,7 @@ export default function Result({traits, effects}) {
             {message}
           </Typography>
         </DialogContent>
-        <DialogActions>
-          <Share display="popup" quote={message} redirectURI="https://facebook.com/" >
-            <Fab variant="extended" size="small" color="primary">
-              <Facebook />
-              Share
-            </Fab>
-          </Share>
-          <Fab variant="extended" size="small" onClick={handleClose}>
-            OK
-          </Fab>
-        </DialogActions>
       </Dialog>
-    </FacebookProvider>
+    </React.Fragment>
   )
 }

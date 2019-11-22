@@ -74,11 +74,11 @@ const config = {
           name: "og:image",
           content:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZlNa9_1_648llp4M24wCedYR7PocaQ6lUav2IYA7TijkD0lTUw&s"
-        },
-        {
-          name: "fb:app_id",
-          content: 641499649714690
         }
+        // {
+        //   name: "fb:app_id",
+        //   content: 641499649714690
+        // }
       ]
     }),
     new HtmlWebpackPlugin({
@@ -106,11 +106,11 @@ const config = {
           name: "og:image",
           content:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZlNa9_1_648llp4M24wCedYR7PocaQ6lUav2IYA7TijkD0lTUw&s"
-        },
-        {
-          name: "fb:app_id",
-          content: 641499649714690
         }
+        // {
+        //   name: "fb:app_id",
+        //   content: 641499649714690
+        // }
       ]
     }),
     new HtmlWebpackPlugin({
@@ -138,11 +138,11 @@ const config = {
           name: "og:image",
           content:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZlNa9_1_648llp4M24wCedYR7PocaQ6lUav2IYA7TijkD0lTUw&s"
-        },
-        {
-          name: "fb:app_id",
-          content: 641499649714690
         }
+        // {
+        //   name: "fb:app_id",
+        //   content: 641499649714690
+        // }
       ]
     }),
     new HtmlWebpackPlugin({
@@ -170,11 +170,11 @@ const config = {
           name: "og:image",
           content:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZlNa9_1_648llp4M24wCedYR7PocaQ6lUav2IYA7TijkD0lTUw&s"
-        },
-        {
-          name: "fb:app_id",
-          content: 641499649714690
         }
+        // {
+        //   name: "fb:app_id",
+        //   content: 641499649714690
+        // }
       ]
     }),
     new HtmlWebpackPlugin({
@@ -202,11 +202,11 @@ const config = {
           name: "og:image",
           content:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHZlNa9_1_648llp4M24wCedYR7PocaQ6lUav2IYA7TijkD0lTUw&s"
-        },
-        {
-          name: "fb:app_id",
-          content: 641499649714690
         }
+        // {
+        //   name: "fb:app_id",
+        //   content: 641499649714690
+        // }
       ]
     })
   ],
