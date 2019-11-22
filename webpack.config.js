@@ -63,7 +63,7 @@ const config = {
         },
         {
           name: "og:title",
-          content: "Taga Pisay EVC ka ba talaga?"
+          content: "What subject will you teach in Pisay?"
         },
         {
           name: "og:description",

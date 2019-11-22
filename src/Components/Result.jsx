@@ -14,7 +14,7 @@ function Result({ answers }) {
         <span>🎉🎉🎉</span>
       </p>
       <div className="result-actions">
-        <a className="button back result-retake" href="/">
+        <a className="button back result-retake" href="/briggs_myers/">
           Retake
         </a>
         <FacebookProvider appId="641499649714690">
