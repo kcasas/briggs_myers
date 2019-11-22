@@ -13,7 +13,7 @@ function Result({ answers }) {
         <span>🎉🎉🎉</span>
       </p>
       <div className="result-actions">
-        <a className="button back result-retake" href="/briggs_myers/">
+        <a className="button back result-retake" href="">
           Retake
         </a>
         <a href={"https://www.facebook.com/sharer/sharer.php?u="+shareUrl} className="button result-share">
@@ -59,7 +59,7 @@ const getDominantTraits = function(traits, effects) {
 };
 
 const getShareUrl = dominantTrait => {
-  const baseUrl = "https://kcasas.github.io/briggs_myers/";
+  const baseUrl = window.location.origin + "/";
 
   switch (dominantTrait[0]) {
     case "Science":
