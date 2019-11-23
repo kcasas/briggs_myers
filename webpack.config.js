@@ -51,7 +51,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Briggs Myers Test",
+      title: "Pisay Quiz Time",
       template: require("html-webpack-template"),
       inject: false,
       appMountId: "app",

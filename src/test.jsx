@@ -52,7 +52,7 @@ export const questions = [
         ]
     },
     {
-        'question': 'Your go to outfit?',
+        'question': 'Your go-to outfit?',
         'options': [
             {
                 'value': 'T-shirt lang with pants',
@@ -67,7 +67,7 @@ export const questions = [
                 'effect': [0, 0, 1, 0],
             },
             {
-                'value': 'Basta pang OOTD',
+                'value': 'Basta pang-OOTD',
                 'effect': [0, 0, 0, 1],
             },
         ]
@@ -122,7 +122,7 @@ export const questions = [
                 'effect': [1, 0, 0, 0],
             },
             {
-                'value': 'Coke or sprite',
+                'value': 'Coke or Sprite',
                 'effect': [0, 1, 0, 0],
             },
             {
@@ -181,7 +181,7 @@ export const questions = [
         'question': 'Gatas na choco or choco na gatas?',
         'options': [
             {
-                'value': 'Tubig nalang',
+                'value': 'Tubig na lang',
                 'effect': [1, 0, 0, 0],
             },
             {
@@ -283,10 +283,10 @@ export const questions = [
         ]
     },
     {
-        'question': 'If may isang araw ka na lang left on earth, ano ang gagawin mo?',
+        'question': 'It’s the end of the world in 24 hours! Ano gagawin mo?',
         'options': [
             {
-                'value': 'Magtimpla ng kape at go on with my life casually',
+                'value': 'Magtimpla ng kape and go on with my life casually',
                 'effect': [1, 0, 0, 0],
             },
             {
