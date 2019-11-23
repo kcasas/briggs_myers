@@ -1,4 +1,4 @@
-export const title = 'Answer this quiz to know what subject you will teach if you were a Pisay teacher?'
+export const title = 'If you were a Pisay teacher, anong subject kaya ang ituturo mo?'
 export const resultPrefix = 'You will teach '
 
 export const traits = [

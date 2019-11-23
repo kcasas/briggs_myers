@@ -68,7 +68,7 @@ const config = {
         {
           name: "og:description",
           content:
-            "Answer this quiz to know what subject you will teach if you were a Pisay teacher?"
+            "If you were a Pisay teacher, anong subject kaya ang ituturo mo?"
         },
         {
           name: "og:image",
@@ -100,7 +100,7 @@ const config = {
         {
           name: "og:description",
           content:
-            "Answer this quiz to know what subject you will teach if you were a Pisay teacher?"
+            "If you were a Pisay teacher, anong subject kaya ang ituturo mo?"
         },
         {
           name: "og:image",
@@ -132,7 +132,7 @@ const config = {
         {
           name: "og:description",
           content:
-            "Answer this quiz to know what subject you will teach if you were a Pisay teacher?"
+            "If you were a Pisay teacher, anong subject kaya ang ituturo mo?"
         },
         {
           name: "og:image",
@@ -164,7 +164,7 @@ const config = {
         {
           name: "og:description",
           content:
-            "Answer this quiz to know what subject you will teach if you were a Pisay teacher?"
+            "If you were a Pisay teacher, anong subject kaya ang ituturo mo?"
         },
         {
           name: "og:image",
@@ -196,7 +196,7 @@ const config = {
         {
           name: "og:description",
           content:
-            "Answer this quiz to know what subject you will teach if you were a Pisay teacher?"
+            "If you were a Pisay teacher, anong subject kaya ang ituturo mo?"
         },
         {
           name: "og:image",
